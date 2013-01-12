@@ -1,7 +1,7 @@
-if &cp || exists("g:loaded_gtkfont") || !has("gui_gtk2") || !has("gui_running")
+if &cp || exists("g:loaded_guifontzoom") || !has("gui_gtk2") || !has("gui_running")
     finish
 endif
-let g:loaded_gtkfont = 1
+let g:loaded_guifontzoom = 1
 
 let s:save_cpo = &cpo
 set cpo&vim
@@ -46,12 +46,12 @@ let &cpo = s:save_cpo
 finish
 
 ==============================================================================
-gtkfont.vim : control gui font size with "+", "-" or "=" keys.
+guifontzoom.vim : control gui font size with "+", "-" or "=" keys.
 ------------------------------------------------------------------------------
-$VIMRUNTIMEPATH/plugin/gtkfont.vim
+$VIMRUNTIMEPATH/plugin/guifontzoom.vim
 ==============================================================================
 author  : SEBASTIAN MENSKI
-url     : http://github.com/mensk/vim-gtkfont/
+url     : http://github.com/mensk/vim-guifontzoom/
 email   : sebastian.menski@googlemail.com
 version : 2012-11-17 23:57
 ==============================================================================
@@ -74,6 +74,6 @@ Command-line Mode:
 
 ==============================================================================
 
-Copy the gtkfont.vim script to $HOME/.vim/plugin directory.
+Copy the guifontzoom.vim script to $HOME/.vim/plugin directory.
 
 ==============================================================================
