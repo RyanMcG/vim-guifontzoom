@@ -1,19 +1,17 @@
-==============================================================================
-guifontzoom.vim : control gui font size with "+", "-" or "=" keys.
-------------------------------------------------------------------------------
-$VIMRUNTIMEPATH/plugin/guifontzoom.vim
-==============================================================================
-author  : SEBASTIAN MENSKI
-url     : http://github.com/mensk/vim-guifontzoom/
-email   : sebastian.menski@googlemail.com
-version : 2012-11-17 23:57
-==============================================================================
+*guifontzoom.txt* control gui font size with "+", "-" and "=" keys.	*guifontzoom*
+
+CONTENTS ~
+							*guifontzoom-contents*
+===========================================================================
+1.  Usage 					|guifontzoom-usage|
+===========================================================================
+
+USAGE 						*guifontzoom-usage*
 
 Press "+" key and "-" to increase or decrease gui font size in normal mode.
 By pressing "=" key the font size is reseted to the default size.
 
 This plugin is for GTK vim only.
-
 
 Normal Mode:
     +                   ... increase font size
