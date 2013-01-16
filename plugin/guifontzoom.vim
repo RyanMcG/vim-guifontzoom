@@ -17,7 +17,6 @@ command! -narg=0 ZoomReset :call s:ZoomReset()
 " map
 nmap + :ZoomIn<CR>
 nmap - :ZoomOut<CR>
-nmap = :ZoomReset<CR>
 
 " change gui font size
 function! s:ChangeFont(amount)
